@@ -57,3 +57,16 @@ if color1=='синий' and ((color2=='жёлтый') or (color2=='желтый'
 if color2=='синий' and ((color1=='жёлтый') or (color1=='желтый')):
     print("Результат: зелёный")
 
+"5 ЗАДАЧА"
+stroka=''
+strokafinal=''
+N = int(input("Введите кол-во слов: "))
+a = 1
+
+while a <= N:
+    slovo = input("Введите слово: ")
+    a += 1
+    stroka = stroka + (slovo) + ', '
+
+strokafinal=stroka[:-2]
+print(strokafinal)
